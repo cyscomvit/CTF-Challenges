@@ -1,5 +1,5 @@
 <?php
-$token = "8dd85d89208370621b66ac54796afb9c4a561649";
+$token = "cOnGrATuLaTioNs_Challenge8_Done!";
 $cookie_name="Flag";
 setcookie($cookie_name,$token, time() + (86400 * 30), "/");
 ?>
