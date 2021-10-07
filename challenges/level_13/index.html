@@ -1,17 +1,42 @@
 <html>
 <head>
   <title>x</title>
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
 <!-- Favicon -->
 <link rel="icon" href="../images/owasp-logo.png">
 <!-- CSS -->
 <style>
+
   *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+    /* position: absolute; */
+    font-family: 'Kanit', sans-serif;
+    color: white;
   }
 
+  body{
+    background: linear-gradient(rgba(22, 22, 22, 0.329),rgba(89, 219, 241, 0.315)),url(../images/hacker3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+ .content{
+   text-align: center;
+   min-height: 100vh;
+   font-size: 2rem;
+   padding-top:15%;
+ }
+  
+ button{
+   color:black;
+   font-size: 1.2rem;
+ }
 
 </style>
 
@@ -19,7 +44,7 @@
 
 </head>
 <body>
-  <div class="contnet">
+  <div class="content">
     <h1>Harder XSS</h1>
     <form action="http://localhost/level_13/x.php" method="GET">
       User the string <b>alert(FLAG)</b> <br>
