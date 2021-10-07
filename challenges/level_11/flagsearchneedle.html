@@ -1,18 +1,38 @@
 <html>
 <head>
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+
+<style>
+
+    *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+        font-family: 'Kanit', sans-serif;
+    }
+
+</style>
+
+
+
 </head>
 <!-- Favicon -->
 <link rel="icon" href="../images/owasp-logo.png">
 <body>
-<h1>You're very close to the finish line!</h1>
-<?php
-echo "abc";
-?>
-<div id="content">
-<form action = "form.php" method = "get">
-Find words containing: <input type="text" name="needle">
-<input type="submit" name="submit" value="Search"><br><br>
-</form>
-</div>
+    <div class="content-main">
+        <h1>You're very close to the finish line!</h1>
+        <?php
+        echo "abc";
+        ?>
+        <div id="content">
+            <form action = "form.php" method = "get">
+                Find words containing: <input type="text" name="needle">
+                <input type="submit" name="submit" value="Search"><br><br>
+            </form>
+        </div>
+    </div>
 </body>
 </html>

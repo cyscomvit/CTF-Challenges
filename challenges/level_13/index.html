@@ -3,14 +3,31 @@
   <title>x</title>
 <!-- Favicon -->
 <link rel="icon" href="../images/owasp-logo.png">
+<!-- CSS -->
+<style>
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+
+
+</style>
+
+
+
 </head>
 <body>
-  <h1>Harder XSS</h1>
-  <form action="http://localhost/level_13/x.php" method="GET">
-    User the string <b>alert(FLAG)</b> <br>
-    <input name="name"><br><br>
-    <button type="submit">Check</button>
-  </form>
+  <div class="contnet">
+    <h1>Harder XSS</h1>
+    <form action="http://localhost/level_13/x.php" method="GET">
+      User the string <b>alert(FLAG)</b> <br>
+      <input name="name"><br><br>
+      <button type="submit">Check</button>
+    </form>
+  </div>
+  
 </body>
 </html>
 
