@@ -1,5 +1,5 @@
 <?php
-$token = "WASP{cOnGrATuLaTioNs_Challenge8_Done!}";
+$token = "WASP{cOnGrATuLaTioNs_Challenge8_cOmPl3ted!}";
 $cookie_name="Flag";
 setcookie($cookie_name,$token, time() + (86400 * 30), "/");
 ?>
