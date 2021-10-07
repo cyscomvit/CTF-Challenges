@@ -4,7 +4,7 @@
 
     if( $username == "admin" && $password == "hoijsdfdfjn+42790")
     {
-        header("Location:http://localhost/Beginner_CTF/Steg_success.html");
+        header("Location: ./Steg_success.html");
         exit();
     }
     else
