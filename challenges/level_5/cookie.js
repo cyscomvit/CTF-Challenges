@@ -1,6 +1,6 @@
 Cookies.set('Cookie1', '36194831981', { expires: 7 })  
 Cookies.set('capture-cookie', 'vuhehvdoa', { expires: 7 })  
 Cookies.set('crawler', '374ncsaq', { expires: 7 })  
-Cookies.set('FlagCookie', 'Owasp{flag_cookie_1806}', { expires: 7 })  
+Cookies.set('FlagCookie', 'WASP{cOoKiEs_yUmM_yUmM}', { expires: 7 })  
 Cookies.set('Inlokie', '3123wsacs', { expires: 7 })  
 Cookies.set('Zair', '7843211', { expires: 7 })  
