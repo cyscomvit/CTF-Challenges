@@ -1,11 +1,3 @@
-<?php
-$token = "WASP{cOnGrATuLaTioNs_Challenge8_cOmPl3ted!}";
-$cookie_name="Flag";
-setcookie($cookie_name,$token, time() + (86400 * 30), "/");
-?>
-
-
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -77,20 +69,14 @@ setcookie($cookie_name,$token, time() + (86400 * 30), "/");
   
   <body>
     <section id="user-input">
-      <form action="./index.php" method="post" >
+      <form action="./q.php" method="GET" >
           <div class="form-control">
             <br>
-              <label for="message-image">Search...</label> <br> <!-- Search -->
-              <input class = "textbox" type="text" id="ccc" name="message-image" /> <br>
+              <label for="name">Search...</label> <br> <!-- Search -->
+              <input class = "textbox" type="text" id="ccc" name="name" /> <br>
               <button class = "button" type="submit">Submit</button>
           </div>      
       </form>
     </section>
   </body>
 </html>
-
-<?php
-if(sizeof($_POST)!=0){
-    echo $_POST['message-image'];
-}
-?>
