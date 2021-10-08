@@ -11,7 +11,7 @@ if(!array_key_exists ("name", $_GET) || $_GET['name'] == NULL || $_GET['name'] =
   $y = true;
 }
  if ($x  == true && $y == true){
-  echo "FLAG{GCHJP2FVWIMSZCG4L8W1}";
+  echo "WASPCON{GCHJP2FVWIMSZCG4L8W1}";
 }
 }
 
