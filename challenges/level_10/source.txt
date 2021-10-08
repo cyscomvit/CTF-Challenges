@@ -12,7 +12,7 @@ include "/secret.txt";
 
     if(array_key_exists("submit", $_POST)) {
         if($secret == $_POST['secret']) {
-        print "Access granted. The password for natas7 is <censored>";
+        print "Access granted. The password is <censored>";
     } else {
         print "Wrong secret";
     }
