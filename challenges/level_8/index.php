@@ -77,7 +77,7 @@ setcookie($cookie_name,$token, time() + (86400 * 30), "/");
   
   <body>
     <section id="user-input">
-      <form action="home.php" method="post" >
+      <form action="./index.php" method="post" >
           <div class="form-control">
             <br>
               <label for="message-image">Search...</label> <br> <!-- Search -->
