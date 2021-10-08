@@ -46,7 +46,7 @@ if(mysqli_query($link, $sql)){
 $sql = "SELECT * FROM users where username='$username' and password='$password' ";
 if($result = mysqli_query($link, $sql)){
     if(mysqli_num_rows($result) > 0){
-			echo 'Authorized';
+			echo 'Your flag is WASP{level_9_flag}';
         mysqli_free_result($result);
     } else{
         echo "Not Authorized";
