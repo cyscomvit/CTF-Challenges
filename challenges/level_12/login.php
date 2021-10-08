@@ -52,8 +52,8 @@ if(!mysqli_query($link, $sql)){
     echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
 }
 
-$flag=rand(1000000,10000000);
-$sql = "INSERT INTO owasp VALUES ('$flag')";
+
+$sql = "INSERT INTO owasp VALUES ('WASP{You_ReAcheD_LeveL_13')";
 
 if(!mysqli_query($link, $sql)){
     echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
