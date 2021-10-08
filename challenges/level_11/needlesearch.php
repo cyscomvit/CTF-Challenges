@@ -1,5 +1,5 @@
 <?php
-include 'flagsearchneedle.html';
+include 'search.html';
 if (isset($_GET['needle'])){
 	$search = $_GET['needle'];
 	if ($search === 'needle'){
