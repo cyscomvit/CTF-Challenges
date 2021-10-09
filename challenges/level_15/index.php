@@ -2,7 +2,7 @@
 include 'index2.html';
 if (isset($_GET['cmd'])){
     $cmd = $_GET['cmd'];
-    $commands = array("ls","cat","pwd","cd","whoami");
+    $commands = array("ls","cat flag.txt","pwd","cd","whoami");
     $flag = 0;
     for($i=0;$i<5;$i++){
         if(strcmp($commands[$i],$cmd) === 0){ 
