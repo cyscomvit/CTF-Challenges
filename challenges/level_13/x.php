@@ -13,7 +13,7 @@ if(!array_key_exists ("name", $_GET) || $_GET['name'] == NULL || $_GET['name'] =
  if ($x  == true && $y == true){
   echo "WASP{GCHJP2FVWIMSZCG4L8W1}";
 }else{
- header('Location: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpics.esmemes.com%2Fher-how-long-have-you-gone-without-mentioning-jojo->
+ header('Location: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpics.esmemes.com%2Fher-how-long-have-you-gone-without-mentioning-jojo-me-45442928.png&f=1&nofb=1');
 }
 }
 
