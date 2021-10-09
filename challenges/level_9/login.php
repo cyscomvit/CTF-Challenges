@@ -4,7 +4,7 @@ $username=$_POST['username'];
 $password=$_POST['password'];
 /* Attempt MySQL server connection. Assuming you are running MySQL
 server with default setting (user 'root' with no password) */
-$link = mysqli_connect("localhost", "root", "");
+$link = mysqli_connect("mydb", "root", "password");
  
 // Check connection
 if($link === false){
@@ -18,7 +18,7 @@ if(mysqli_query($link, $sql)){
 } else{
     echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
 }
-$link = mysqli_connect("localhost", "root", "", "demo");
+$link = mysqli_connect("mydb", "root", "password", "demo");
  
 // Check connection
 if($link === false){
