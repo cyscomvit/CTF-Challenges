@@ -36,4 +36,4 @@ Challenges for the Hands-on session for WaspCon.
    Level 14 - http://localhost/level_14/
    Level 15 - http://localhost/level_15/index.php
    ```
- 6) Try getting the flags!
+ 6) Try getting the flags! If you are stuck at any level, you can refer the walkthrough in the repo :)
